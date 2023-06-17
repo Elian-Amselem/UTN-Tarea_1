@@ -1,0 +1,187 @@
+:root{
+    --font-color:#ffe3ba;
+    --span-color:#807474;
+    --font: serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000000;
+    background-image: url("../multimedia/img/dota2-jugger-aside.png");
+    background-position: 0 50%;
+    background-repeat: no-repeat;
+    background-size: 600px;
+}
+
+/* Header */
+.header-video{
+    opacity: .4;
+    width: 100%;
+}
+
+.nav-container{
+    position: relative;
+    bottom: 70vh;
+}
+
+.nav-list{
+    position: relative;
+    bottom: 10vh;
+}
+
+.nav-list a{
+    font-size: 25px;
+    display: inline-block;
+    font-family: var(--font);
+    text-decoration: none;
+    color: var(--font-color);
+    text-transform: uppercase;
+    padding-left: 7px;
+    margin-bottom: 15px;
+}
+
+.header-span{
+    display: block;
+    font-size: 75px;
+    opacity: .6;
+    color: var(--span-color);
+    font-weight: bold;
+    text-align: center;
+}
+
+h1{
+    font-weight: bold;
+    font-family: var(--font);
+    color: var(--font-color);
+    text-transform: uppercase;
+    font-size: 90px;
+    text-align: center;
+    margin: auto;
+}
+
+.header-hr{
+    border: 2.5px solid #f00;
+    border-radius: 50%;
+    width: 50%;
+    margin: auto;
+}
+
+
+/* Main */
+.main-container{
+    background-image: url("../multimedia/img/Dota-2-Sven.png");
+    background-repeat: no-repeat;
+    background-position: 95% -5%;
+    background-size: 500px;
+    height: 100vh;
+    position: relative;
+    bottom: 20vh;
+}
+
+.main-span{
+    display: block;
+    font-size: 60px;
+    opacity: .6;
+    text-align: center;
+    font-weight: bold;
+    color: var(--span-color);
+}
+
+h2{
+    font-weight: bold;
+    font-size: 120px;
+    color: var(--font-color);
+    font-family: var(--font);
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+
+.main-hr{
+    border: 2.5px solid #f00;
+    border-radius: 50%;
+    width: 15%;
+    margin: auto;
+}
+
+.main-p{
+    font-size: 25px;
+    width: 800px;
+    color: var(--font-color);
+    font-family: var(--font);
+    margin: 2.5% auto;
+    text-align: center;
+}
+
+.section-container{
+    margin-top: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section-image{
+    margin-left: 40%;
+    width: 90px;
+    height: 90px;
+    margin-bottom: 20px;
+}
+
+.section-subtitle{
+    font-weight: bold;
+    text-align: center;
+    padding: 0 auto;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: var(--font-color);
+    margin-bottom: 20px;
+
+}
+.section-p{
+    text-align: center;
+    color: var(--font-color);
+    font-size: 20px;
+    display: block;
+    width: 400px;
+}
+
+/* Footer */
+
+.footer-container{
+    background-image: url("../multimedia/img/dota2-logo-footer.png");
+    background-size: 20%;
+    background-position:50% 90%;
+    background-repeat: no-repeat;
+    height: 500px;
+    background-color: #080808;
+}
+
+
+.footer-address{
+    position: relative;
+    top: 50px;
+}
+
+.footer-p{
+    display: block;
+    color: var(--font-color);
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.footer-list{
+    font-size: 20px;
+    margin-top: 130px;
+}
+
+.footer-item{
+    padding-left: 20px;
+    margin: 30px auto;
+}
+
+
