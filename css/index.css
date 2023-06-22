@@ -1,6 +1,6 @@
 :root{
     --font-color:#ffe3ba;
-    --span-color:#807474;
+    --span-color:#9e8d8d;
     --font: serif;
 }
 
@@ -13,61 +13,57 @@
 body{
     background-color: #000000;
     background-image: url("../multimedia/img/dota2-jugger-aside.png");
-    background-position: 0 50%;
+    background-position: -5% 15%;
     background-repeat: no-repeat;
-    background-size: 25%;
+    background-size: 50%;
 }
 
 /* Header */
 .header-video{
-    opacity: .4;
+    opacity: .6;
     width: 100%;
 }
 
 .nav-container{
     position: relative;
-    bottom: 70vh;
-}
-
-.nav-list{
-    position: relative;
-    bottom: 10vh;
+    bottom: 200px;
 }
 
 .nav-list a{
-    font-size: 25px;
+    font-size: 15px;
     display: inline-block;
     font-family: var(--font);
     text-decoration: none;
     color: var(--font-color);
     text-transform: uppercase;
     padding-left: 7px;
-    margin-bottom: 15px;
+    margin-bottom: 7px;
 }
 
 .header-span{
     display: block;
-    font-size: 65px;
-    opacity: .6;
+    font-size: 27px;
+    opacity: .8;
     color: var(--span-color);
     font-weight: bold;
     text-align: center;
 }
 
 h1{
+    display: inline-block;
     font-weight: bold;
     font-family: var(--font);
     color: var(--font-color);
     text-transform: uppercase;
-    font-size: 75px;
+    font-size: 27px;
     text-align: center;
-    margin: auto;
+    margin-left: 50px;
 }
 
 .header-hr{
     border: 2.5px solid #f00;
     border-radius: 50%;
-    width: 50%;
+    width: 60%;
     margin: auto;
 }
 
@@ -76,16 +72,15 @@ h1{
 .main-container{
     background-image: url("../multimedia/img/Dota-2-Sven.png");
     background-repeat: no-repeat;
-    background-position: 95% -5%;
-    background-size: 25%;
-    height: 100vh;
+    background-position: 95% 7%;
+    background-size: 50%;
     position: relative;
-    bottom: 20vh;
+    top: -130px;
 }
 
 .main-span{
     display: block;
-    font-size: 60px;
+    font-size: 27px;
     opacity: .6;
     text-align: center;
     font-weight: bold;
@@ -94,7 +89,7 @@ h1{
 
 h2{
     font-weight: bold;
-    font-size: 120px;
+    font-size: 32px;
     color: var(--font-color);
     font-family: var(--font);
     text-transform: uppercase;
@@ -105,66 +100,67 @@ h2{
 .main-hr{
     border: 2.5px solid #f00;
     border-radius: 50%;
-    width: 15%;
+    width: 20%;
     margin: auto;
+    margin-bottom: 60%;
 }
 
 .main-p{
-    font-size: 25px;
-    width: 800px;
+    font-size: 18px;
+    width: 350px;
     color: var(--font-color);
     font-family: var(--font);
-    margin: 2.5% auto;
-    text-align: center;
+    padding: 0 25px;
+    margin-left: 90px;
 }
 
 .section-container{
-    margin-top: 15%;
+    margin-top: 5%;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content:center;
     align-items: center;
+    width: 100%;
 }
 
+/* .section-div{
+    width: 100%;
+} */
+
 .section-image{
-    margin-left: 40%;
-    width: 90px;
-    height: 90px;
-    margin-bottom: 20px;
+    width: 75px;
+    height: 75px;
+    margin: 20px 40%;
 }
 
 .section-subtitle{
     font-weight: bold;
     text-align: center;
     padding: 0 auto;
-    font-size: 50px;
+    font-size: 20px;
     text-transform: uppercase;
     color: var(--font-color);
     margin-bottom: 20px;
 
 }
 .section-p{
-    text-align: center;
     color: var(--font-color);
-    font-size: 20px;
-    display: block;
-    width: 400px;
+    font-size: 18px;
+    width: 350px;
+    padding: 0 25px;
+    margin-left: 5%;
 }
 
 /* Footer */
 
 .footer-container{
     background-image: url("../multimedia/img/dota2-logo-footer.png");
-    background-size: 20%;
+    background-size: 60%;
     background-position:50% 90%;
     background-repeat: no-repeat;
     height: 500px;
     background-color: #080808;
-}
-
-
-.footer-address{
-    position: relative;
-    top: 40%;
+    margin-top: 50px;
 }
 
 .footer-p{
@@ -176,7 +172,7 @@ h2{
 
 .footer-list{
     font-size: 20px;
-    margin-top: 20%;
+    margin-top: 10%;
 }
 
 .footer-item{
